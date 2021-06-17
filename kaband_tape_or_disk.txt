@@ -1,0 +1,6 @@
+bash-4.1$ pwd
+/cresis/snfs1/data/kaband
+bash-4.1$ ~/scripts/bash/tape_or_disk.sh `find -maxdepth 1 -mindepth 1 | sort`
+             Filename           Disk Usage  Apparent Disk Usage   Tape/Disk Estimate
+./2015_Greenland_C130                   1M                   6T                 TAPE
+

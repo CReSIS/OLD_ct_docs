@@ -1,0 +1,27 @@
+bash-4.1$ ~/scripts/bash/tape_or_disk.sh *
+              Filename           Disk Usage  Apparent Disk Usage   Tape/Disk Estimate
+            2009_Chile                 704K                   5T                 TAPE
+       2010_Antarctica                 644K                   4T                 TAPE
+            2010_Chile                 284K                   2T                 TAPE
+    2010_Greenland_DC8                 392K                   3T                 TAPE
+     2010_Greenland_P3                   4T                   4T                 DISK
+   2011_Antarctica_DC8                   6T                   6T         PART-ON-TAPE
+    2011_Antarctica_TO                 572K                   3T                 TAPE
+     2011_Greenland_P3                 299G                  10T         PART-ON-TAPE
+     2011_Greenland_TO                 216K                   1T                 TAPE
+   2012_Antarctica_DC8                   1M                   6T                 TAPE
+     2012_Greenland_P3                  44G                  25T                 TAPE
+2013_Antarctica_Basler                   2T                   2T                 DISK
+    2013_Antarctica_P3                   1T                   1T         PART-ON-TAPE
+     2013_Greenland_P3                   2M                   7T                 TAPE
+     2014_Alaska_TOnrl                 430G                 426G                 DISK
+   2014_Antarctica_DC8                  17G                   7T                 TAPE
+     2014_Greenland_P3                  12T                  12T                 DISK
+   2015_Greenland_C130                   5T                   6T         PART-ON-TAPE
+   2016_Antarctica_DC8                  10T                  10T                 DISK
+     2016_Greenland_P3                   2T                   2T                 DISK
+   2018_Antarctica_DC8                   4K                   4K                 DISK
+     2019_Greenland_P3                   4K                   4K                 DISK
+bash-4.1$ pwd
+/cresis/snfs1/data/Ku-Band
+

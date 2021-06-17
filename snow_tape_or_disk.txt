@@ -1,0 +1,40 @@
+bash-4.1$ ~/scripts/bash/tape_or_disk.sh `find -maxdepth 1 -mindepth 1 | sort`
+                 Filename           Disk Usage  Apparent Disk Usage   Tape/Disk Estimate
+            ./2006_Arctic                 172K                 115G                 TAPE
+            ./2009_Arctic                 513M                   5T                 TAPE
+             ./2009_Chile                   5T                   5T                 DISK
+             ./2010_Chile                   2T                   2T         PART-ON-TAPE
+     ./2010_Greenland_DC8                 780K                   5T                 TAPE
+      ./2010_Greenland_P3                   4T                   3T                 DISK
+    ./2011_Antarctica_DC8                   6T                   6T         PART-ON-TAPE
+      ./2011_Greenland_P3                   1T                  10T         PART-ON-TAPE
+    ./2012_Antarctica_DC8                   6T                   6T         PART-ON-TAPE
+      ./2012_Greenland_P3                   6T                  25T         PART-ON-TAPE
+ ./2013_Antarctica_Basler                   2T                   2T                 DISK
+     ./2013_Antarctica_P3                   1T                   1T         PART-ON-TAPE
+  ./2013_Greenland_Ground                  28K                  83G                 TAPE
+      ./2013_Greenland_P3                 758M                   7T                 TAPE
+      ./2014_Alaska_TOnrl                 430G                 426G                 DISK
+    ./2014_Antarctica_DC8                 715G                   7T         PART-ON-TAPE
+      ./2014_Greenland_P3                  12T                  12T                 DISK
+      ./2015_Alaska_TOnrl                   7T                   7T                 DISK
+    ./2015_Greenland_C130                   5T                   6T         PART-ON-TAPE
+  ./2015_Greenland_Polar6                 300K                 720G                 TAPE
+      ./2016_Alaska_TOnrl                 507M                   7T                 TAPE
+    ./2016_Antarctica_DC8                  10T                  10T                 DISK
+      ./2016_Greenland_P3                   2T                   2T                 DISK
+  ./2016_Greenland_Polar6                   2T                   2T                 DISK
+      ./2017_Greenland_P3                  82G                  81G                 DISK
+         ./2018_Alaska_SO                   1T                   1T                 DISK
+    ./2018_Antarctica_DC8                  17T                  17T                 DISK
+     ./2019_Antarctica_GV                  36G                  35G                 DISK
+         ./2019_Arctic_GV                   9T                   9T                 DISK
+      ./2019_Greenland_P3                  29T                  29T                 DISK
+      ./2019_Greenland_TO                 808G                 802G                 DISK
+./2020_SouthDakota_CESSNA                   1T                   1T                 DISK
+  ./2020_SouthDakota_N1KU                   5T                   5T                 DISK
+         ./2021_Alaska_SO                   1T                   1T                 DISK
+    ./2021_Arctic_Vanilla                  86G                  85G                 DISK
+bash-4.1$ pwd
+/cresis/snfs1/data/SnowRadar
+

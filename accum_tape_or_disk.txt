@@ -1,0 +1,32 @@
+              Filename           Disk Usage  Apparent Disk Usage   Tape/Disk Estimate
+       2010_Antarctica                   4T                   4T                 DISK
+     2010_Greenland_P3                   3T                   3T                 DISK
+    2011_Antarctica_TO                 607G                   2T         PART-ON-TAPE
+     2011_Greenland_P3                 513M                   7T                 TAPE
+     2011_Greenland_TO                 148K                   1T                 TAPE
+     2012_Greenland_P3                 158G                   5T         PART-ON-TAPE
+2013_Antarctica_Ground                 300M                 803G                 TAPE
+    2013_Antarctica_P3                  10G                 946G         PART-ON-TAPE
+  2013_Antarctica_Sled                 252K                 253G                 TAPE
+     2013_Greenland_P3                   1M                   3T                 TAPE
+     2014_Greenland_P3                   5T                   5T                 DISK
+2015_Antarctica_Ground                 756G                 743G                 DISK
+ 2015_Greenland_Ground                  56G                 184G         PART-ON-TAPE
+     2017_Greenland_P3                  73G                  72G                 DISK
+   2018_Antarctica_DC8                   4K                   4K                 DISK
+du: cannot read directory `2018_Antarctica_TObas/lost+found': Permission denied
+du: cannot read directory `2018_Antarctica_TObas/lost+found': Permission denied
+ 2018_Antarctica_TObas                   3T                   3T                 DISK
+ 2019_Antarctica_TObas                   1T                   1T                 DISK
+     2019_Greenland_P3                   4K                   4K                 DISK
+          airborne2001                  24K                  26G                 TAPE
+          airborne2002                 130M                  60G                 TAPE
+          airborne2003                  97M                  37G                 TAPE
+  Greenland_Model_Data                   4K                 655M                 TAPE
+             ngrip2003                   4K                  14G                 TAPE
+            summit2004                  32K                  37G                 TAPE
+            summit2005                 232K                 409G                 TAPE
+              wais2006                 260K                 190G                 TAPE
+bash-4.1$ pwd
+/cresis/snfs1/data/Accum_Data
+
